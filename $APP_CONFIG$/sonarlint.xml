@@ -1,0 +1,8 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <rules>
+      <Rule active="false" key="php:S125" />
+      <Rule active="false" key="php:S1186" />
+    </rules>
+  </component>
+</application>

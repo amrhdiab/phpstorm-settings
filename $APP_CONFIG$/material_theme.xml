@@ -1,0 +1,14 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="contrastMode" value="true" />
+    <option name="highContrast" value="true" />
+    <option name="isContrastMode" value="true" />
+    <option name="isHighContrast" value="true" />
+    <option name="overrideAccentColor" value="false" />
+    <option name="pristineConfig" value="false" />
+    <option name="accentColor" value="416a9b" />
+    <option name="selectedTheme" value="ONE_DARK" />
+    <option name="userId" value="7b85e51f:1750a177890:-8000" />
+    <option name="version" value="5.5.0" />
+  </component>
+</application>

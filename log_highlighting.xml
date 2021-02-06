@@ -9,6 +9,8 @@
       <LogParsingPattern name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" />
       <LogParsingPattern name="IntelliJ IDEA" pattern="^([^\[]+)(\[[\s\d]+])\s*(\w*)\s*-\s*(\S*)\s*-(.+)$" timePattern="yyyy-MM-dd HH:mm:ss,SSS" linePattern="^\d" timeId="0" severityId="2" categoryId="3" />
       <LogParsingPattern name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" />
+      <LogParsingPattern name="Laravel Log (1)" pattern="^(\[([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])\s([0-1][0-9]|[2][0-3]):([0-5][0-9]):([0-5][0-9]))\])\s*(\w*)\.(\w*):(\w*)(.+)$" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\[" timeId="1" severityId="8" categoryId="7" />
+      <LogParsingPattern name="Laravel Log (2)" pattern="`[\d-\s:\wÀ-ÿ]*`" timePattern="`yyyy-MM-dd HH:mm:ss`" linePattern="`[\d-]*`" timeId="0" severityId="1" />
     </parsingPatterns>
     <settingsVersion>4</settingsVersion>
     <lastAddedDefaultFormat>3</lastAddedDefaultFormat>

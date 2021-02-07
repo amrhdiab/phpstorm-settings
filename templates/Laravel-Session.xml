@@ -3,8 +3,6 @@
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;$value&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -15,8 +13,6 @@
     <variable name="KEY" expression="" defaultValue="&quot;user.teams'" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;$value&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -27,8 +23,6 @@
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="DEFAULT" expression="" defaultValue="&quot;, 'default'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -37,8 +31,6 @@
   </template>
   <template name="Session::all" value="Session::all();$END$" description="Retrieve All Data from the Session" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -48,8 +40,6 @@
   <template name="Session::forget" value="Session::forget('$KEY$');$END$" description="Remove an Item from the Session" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -59,8 +49,6 @@
   <template name="Session::has" value="Session::has('$KEY$');$END$" description="Determin if an Item Exists in the Session" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -69,8 +57,6 @@
   </template>
   <template name="Session::flush" value="Session::flush();$END$" description="Remove All Items from the Session" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -79,8 +65,6 @@
   </template>
   <template name="Session::regenerate" value="Session::regenerate();$END$" description="Regenerate the Session ID" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -91,8 +75,6 @@
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;$value&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -101,8 +83,6 @@
   </template>
   <template name="Session::reflash" value="Session::reflash();$END$" description="Reflash the Current Flash Data" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -112,8 +92,6 @@
   <template name="Session::keep" value="Session::keep([$ARRAY$]);$END$" description="Reflash Only a Subset of Flash Data" toReformat="true" toShortenFQNames="true">
     <variable name="ARRAY" expression="" defaultValue="&quot;'username', 'email'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />

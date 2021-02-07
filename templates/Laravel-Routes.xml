@@ -3,8 +3,6 @@
     <variable name="VERB" expression="enum(&quot;get&quot;, &quot;post&quot;, &quot;any&quot;)" defaultValue="&quot;get&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;/&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -14,8 +12,6 @@
     <variable name="VERB2" expression="enum(&quot;POST&quot;, &quot;GET&quot;, &quot;DELETE&quot;, &quot;PUT&quot;, &quot;PATCH&quot;)" defaultValue="&quot;POST&quot;" alwaysStopAt="true" />
     <variable name="ROUTE" expression="" defaultValue="&quot;/&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -24,8 +20,6 @@
     <variable name="VERB" expression="enum(&quot;get&quot;, &quot;post&quot;, &quot;any&quot;)" defaultValue="&quot;get&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;/&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -35,8 +29,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;user/{name?}&quot;" alwaysStopAt="true" />
     <variable name="PARAM" expression="" defaultValue="&quot;$name = 'John'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -45,8 +37,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
     <variable name="PATTERN" expression="" defaultValue="&quot;[0-9]+&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -54,8 +44,6 @@
   <template name="Route::filter" value="Route::filter('$NAME$', function()&#10;{&#10;&#9;$END$&#10;});" description="Define A Route Filter" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;old&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -65,8 +53,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;user&quot;" alwaysStopAt="true" />
     <variable name="FILTER" expression="" defaultValue="&quot;'before' =&gt; 'auth|old'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -76,8 +62,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;user/profile&quot;" alwaysStopAt="true" />
     <variable name="FILTER" expression="" defaultValue="&quot;'as' =&gt; 'profile'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -85,8 +69,6 @@
   <template name="Route::group" value="Route::group([$FILTER$], function()&#10;{&#10;    $END$&#10;});" description="Create a Group of Routes" toReformat="true" toShortenFQNames="true">
     <variable name="FILTER" expression="" defaultValue="&quot;'before' =&gt; 'auth'&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -98,8 +80,6 @@
     <variable name="METHOD" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
     <variable name="ROUTENAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -108,8 +88,6 @@
     <variable name="NAME" expression="" defaultValue="&quot;users&quot;" alwaysStopAt="true" />
     <variable name="CONTROLLER" expression="" defaultValue="&quot;UsersController&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -119,8 +97,6 @@
     <variable name="FILTER" expression="" defaultValue="&quot;'admin'&quot;" alwaysStopAt="true" />
     <variable name="HTTP" expression="" defaultValue="&quot;array('post')&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -185,8 +161,6 @@
     <variable name="METHOD" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
     <variable name="ROUTENAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>
@@ -198,8 +172,6 @@
     <variable name="METHOD" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
     <variable name="ROUTENAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
     </context>

@@ -3,8 +3,6 @@
     <variable name="CONTROLLER" expression="" defaultValue="&quot;HomeController@getIndex&quot;" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="&quot;$params&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -15,8 +13,6 @@
     <variable name="ROUTE" expression="" defaultValue="&quot;routeName&quot;" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="&quot;$params&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -26,8 +22,6 @@
   <template name="Helper::asset" value="asset('$PATH$');$END$" description="Generate a URL for an asset" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="&quot;img/photo.jpg&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -40,8 +34,6 @@
     <variable name="ATTRIBUTES" expression="" defaultValue="&quot;$attributes&quot;" alwaysStopAt="true" />
     <variable name="SECURE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -54,8 +46,6 @@
     <variable name="ATTRIBUTES" expression="" defaultValue="&quot;$attributes&quot;" alwaysStopAt="true" />
     <variable name="SECURE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -68,8 +58,6 @@
     <variable name="PARAMETERS" expression="" defaultValue="&quot;$parameters&quot;" alwaysStopAt="true" />
     <variable name="ATTRIBUTES" expression="" defaultValue="&quot;$attributes&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -82,8 +70,6 @@
     <variable name="PARAMETERS" expression="" defaultValue="&quot;$parameters&quot;" alwaysStopAt="true" />
     <variable name="ATTRIBUTES" expression="" defaultValue="&quot;$attributes&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -95,8 +81,6 @@
     <variable name="TITLE" expression="" defaultValue="&quot;$title&quot;" alwaysStopAt="true" />
     <variable name="ATTRIBUTES" expression="" defaultValue="&quot;$attributes&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -107,8 +91,6 @@
     <variable name="LINK" expression="" defaultValue="&quot;foo/bar&quot;" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="&quot;, $parameters&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -120,8 +102,6 @@
     <variable name="PARAMS" expression="" defaultValue="&quot;, $parameters&quot;" alwaysStopAt="true" />
     <variable name="SECURE" expression="" defaultValue="&quot;, null&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
@@ -131,8 +111,6 @@
   <template name="Helper::path" value="$PATH$" description="Paths to directories" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="enum(&quot;app_path()&quot;, &quot;base_path()&quot;, &quot;public_path()&quot;, &quot;storage_path()&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="CoffeeScript" value="false" />
-      <option name="HAML" value="false" />
       <option name="JSP" value="false" />
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />

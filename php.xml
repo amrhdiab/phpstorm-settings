@@ -5,6 +5,7 @@
       <interpreter id="8cb9722e-2c1b-4c9f-9b81-ccf123a86248" name="PHP 7.3" home="C:\wamp64\bin\php\php7.3.3\php.exe" debugger_id="php.debugger.XDebug" />
       <interpreter id="6cf58689-e2b5-43e4-8bdd-4231f574bc77" name="PHP 7.4" home="C:\wamp64\bin\php\php7.4.12\php.exe" debugger_id="php.debugger.XDebug" />
       <interpreter id="27a8f195-519e-4ae0-a2f8-ef0ea9b51a88" name="PHP 8.0.0" home="C:\wamp64\bin\php\php8.0.0\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter id="ee35b43b-0329-4461-8cfb-265f44d53f6d" name="PHP 8.0.1" home="C:\wamp64\bin\php\php8.0.1\php.exe" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -126,10 +127,10 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="PHP 8.0.0">
-        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php8.0.0\php-cgi.exe" php_cli="C:\wamp64\bin\php\php8.0.0\php.exe" path_separator=";" version="8.0.0">
+      <interpreter name="PHP 8.0.1">
+        <phpinfo binary_type="PHP" php_cgi="C:\wamp64\bin\php\php8.0.1\php-cgi.exe" php_cli="C:\wamp64\bin\php\php8.0.1\php.exe" path_separator=";" version="8.0.1">
           <additional_php_ini />
-          <configuration_file>C:\wamp64\bin\php\php8.0.0\php.ini</configuration_file>
+          <configuration_file>C:\wamp64\bin\php\php8.0.1\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>

@@ -27,4 +27,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="requireHelperFile" value="$file = app_path('Helpers/Helper.php');&#10;    if (file_exists($file)) {&#10;        require_once($file);&#10;    }" description="Check if a file exists, if it does require it" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
